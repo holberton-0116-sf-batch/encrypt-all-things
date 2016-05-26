@@ -12,7 +12,7 @@ print 'Argument List:', str(sys.argv[1])
 out = ''
 
 for c in sys.argv[1]:
-    c = chr(ord(c) + 1)
+    c = chr(ord(c) + 3)
     out = out + c
 
 print '', out
