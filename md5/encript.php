@@ -1,4 +1,4 @@
 <?php
-$str = "hello";
-echo md5($string);
+  echo md5($argv[1]);
+
 ?>
