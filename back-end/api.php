@@ -1,6 +1,6 @@
 <?php
-$e_type = $_GET['e_type'];
-$text = $_GET['text'];
+$e_type = $_POST['e_type'];
+$text = $_POST['text'];
 //if statements
 $command="./" . $e_type . " " . $text;
 $response = exec($command);
